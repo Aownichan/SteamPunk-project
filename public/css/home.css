@@ -1,0 +1,2257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+span{
+    color: #f74843;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.5;
+    font-weight: 600;
+    margin: 0.5em 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, label, strong {
+    line-height: 2;
+    font-size: 0.85em;
+    font-weight: 300;
+
+}
+
+.logo h4{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: 'Jost', sans-serif;
+    font-weight: 10;
+ 
+}
+
+.logo span{
+    color: #eee;
+    transition: 0.5s;
+}
+
+.logo:hover span{
+    color: #f74843;
+    transition: 0.5s;
+    
+}
+
+.mainhead{
+    font-size: 50px;
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    color: antiquewhite;
+}
+
+.mainheadgames{
+    font-size: 50px;
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    color: antiquewhite;
+}
+
+.mainhead4{
+    font-size: 50px;
+    position: absolute;
+    top: 14%;
+    left: 42.5%;
+    color: antiquewhite;
+}
+
+.aboutmain{
+    height: 130vh;
+}
+
+.joinmain{
+    height: 130vh;
+}
+
+.mainhead2{
+    font-size: 70px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    margin-right: 35%;
+    color: black;
+}
+
+.detailhead{
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    margin-right: 35%;
+    color: black;
+    font-size: 38px;
+}
+
+.aboutpara{
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    margin-right: 45%;
+    color: black;
+    font-size: 22px;
+}
+
+.joinpara{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    margin-right: 45%;
+    color: black;
+    font-size: 22px;
+}
+
+.aboutvid{
+    height: 300px;
+    width: 300px;
+    opacity: 100;
+    position:absolute;
+    top: 70%;
+    left: 70%;
+}
+
+.detailhead2{
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    margin-right: 35%;
+    color: black;
+    font-size: 38px;
+}
+
+.aboutpara2{
+    position: absolute;
+    top: 120%;
+    left: 15%;
+    margin-right: 45%;
+    color: black;
+    font-size: 22px;
+}
+
+.joinpara2{
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    margin-right: 45%;
+    color: black;
+    font-size: 22px;
+}
+
+.job_benefits{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    width: 15%;
+    background: #e6e6e6;
+    line-height: 1.6;
+    list-style-type: disc;
+    padding: 20px;
+}
+
+.job_benefits .list_title{
+    color: #f74843;
+    font-weight: 800;
+    line-height: 1.6;
+}
+
+.job_benefits ul {
+    font-size: 16px;
+    color: gray;
+    padding-left: 0px;
+    margin-top: 20px;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.job_benefits li{
+        display: block;
+        line-height: 20px;
+        margin-bottom: 14px;
+        margin-top: 10px;
+}
+
+.job_benefits .list_title{
+    padding-left: 38px;
+}
+
+#video-container{
+    background: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+video{
+    opacity: 50%;
+    z-index: -1;
+    position: absolute;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+
+}
+
+
+#dota-montage .homepage_QuoteText{
+    font-size: 60px;
+    line-height: 113%;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 600;
+    color: #ffffffee;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px #000;
+    position: absolute; top: 38%; left: 16%;
+}
+
+#dota-montage .homepage_QuoteCredit{
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 2px;
+    color: #ffffff90;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px #000;
+    position: absolute; 
+    top: 52%; 
+    left: 16%;
+}
+
+#dota-montage .homepage_HorizBar{
+    
+    width: 156px;
+    height: 3px;
+    min-height: 1px;
+    background-color: #ff6046;
+    border-radius: 1px;
+    margin-left: 16.5%;
+    margin-bottom: 1%;
+    margin-top: 0;
+    position: absolute; 
+    top: 56%;
+}
+
+#valve-montage .homepage_QuoteText{
+    font-size: 50px;
+    line-height: 113%;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 600;
+    color: #ffffffee;
+    text-transform: uppercase;
+    position: absolute; top: 36%; left: 15%;
+}
+
+
+#valve-montage .homepage_para{
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 2px;
+    color: #eee;
+    font-weight: 600;
+    margin-top: 0;
+    text-transform: uppercase;
+    position: absolute; 
+    top: 45%; 
+    left: 15%;
+    padding-right: 40%;
+}
+
+#valve-montage .jobs{
+    font-family: 'Jost', sans-serif;
+    position: absolute; 
+    top: 55%; 
+    left: 15%;
+    display: block;
+    width: 100%;
+    font-weight: 900;
+    line-height: 2;
+    font-size: 50px;
+    list-style-type: none;
+
+    
+}
+
+#valve-montage .jobs li a{
+    color: #f74843;
+    transition: 0.5s;
+}
+
+#valve-montage .jobs li a:hover{
+    color: #eee;
+    transition: 0.5s;
+}
+
+#valve-montage .jobtext{
+    font-family: 'Jost', sans-serif;
+    position: absolute; 
+    top: 55%; 
+    left: 14%;
+    display: block;
+    width: 100%;
+    font-weight: 200;
+    line-height: 3;
+    color: #f74843;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.background{
+    height: 134vh;
+}
+
+.background2{
+    height: 110vh;
+}
+
+.background3{
+    height: 100vh;
+}
+
+.background4{
+    height: 80vh;
+}
+
+#valvevideo-container{
+    background: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.valve{
+    opacity: 55%;
+    z-index: -1;
+    position: fixed;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.homepage_Signbtn {
+    min-width: 288px;
+    height: 78px;
+    border-radius: 6px;
+    border: 3px solid #ffffff90;
+    box-shadow: 0px 0px 5px #000;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    transition-property: filter,transform,box-shadow;
+    transition-timing-function: ease-in-out;
+    transition-duration: .1s;
+    position: absolute; top: 550px; left: 16%;
+    pointer-events: auto;
+    
+}
+
+.homepage_Signbtn:hover {
+    filter: brightness(1.3);
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 15px #000;
+    border-color: #f74843;
+}
+
+.homepage_Signbtn .homepage_Signup{
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff90;
+    text-shadow: 2px 2px 3px #000;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    margin-left: 18%;
+}
+
+.logoutbtn{
+    min-width: 80px;
+    height: 40px;
+    border-radius: 6px;
+    border: 3px solid #ffffff90;
+    box-shadow: 0px 0px 5px #000;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition-property: filter,transform,box-shadow;
+    transition-timing-function: ease-in-out;
+    transition-duration: .1s;
+    position: relative;
+    pointer-events: auto;
+}
+
+.logoutbtn:hover {
+    filter: brightness(1.3);
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 15px #000;
+    border-color: #f74843;
+}
+
+.logoutbtn .homepage_Signup{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff90;
+    text-shadow: 2px 2px 3px #000;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    margin-left: 18%;
+}
+
+
+.homepage_BottomFade {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0.7)), color-stop(100%, black));
+}
+
+.homepage_BottomFade2 {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 120px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0.7)), color-stop(100%, black));
+}
+
+.homepage_TopFade {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    bottom: 76px;
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(60%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0.7)), color-stop(100%, black));
+}
+
+.homepage_HorizBar2 {
+    width: 94px;
+    height: 3px;
+    min-height: 1px;
+    background-color: #ff6046;
+    border-radius: 1px;
+    margin-left: 47.5%;
+    margin-bottom: 1%;
+    margin-top: 0;
+}
+
+#login-register-button {
+    border-radius: 10px;
+    border: 4px solid #ffffff90;
+    box-shadow: 0px 0px 5px #000;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    color: #eee;
+    cursor: pointer;
+    transition-property: filter,transform,box-shadow;
+    transition-timing-function: ease-in-out;
+    transition-duration: .1s;
+    pointer-events: auto;
+    width: 10em;
+    justify-content: center;
+    height: 3em;
+    margin-left: 1em;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+#login-register-button:hover {
+    filter: brightness(1.3);
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 15px #000;
+    border-color: #f74843;
+    color: #ddd;
+    transition: 0.5s;
+
+}
+
+#Buybtn {
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 4px solid #ffffff90;
+    box-shadow: 0px 0px 5px #000;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    color: #eee;
+    cursor: pointer;
+    transition-property: filter,transform,box-shadow;
+    transition-timing-function: ease-in-out;
+    transition-duration: .1s;
+    pointer-events: auto;
+    width: 10em;
+    justify-content: center;
+    height: 3em;
+    margin-left: 1em;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+#Buybtn:hover {
+    filter: brightness(1.3);
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 15px #000;
+    border-color: #f74843;
+    color: #ddd;
+    transition: 0.5s;
+
+}
+
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
+.badge {
+    padding: 5px 15px;
+    color: #eee;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.badge.new {
+    background-color: rgb(124, 115, 115);
+}
+
+.badge.strategy {
+    background-color: rgb(124, 115, 115);
+}
+
+.badge.FPS {
+    background-color: rgb(124, 115, 115);
+}
+
+.badge.rpg {
+    background-color: rgb(124, 115, 115);
+}
+
+header {
+    background-color: #131313;
+    padding: 20px 0;
+    position: relative;
+    border-bottom: 1px solid #f74843;
+}
+
+.hamburger-menu {
+    background-color: transparent;
+    border: 1px solid#f74843;
+    padding: 3px 5px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger-menu .strip {
+    display: block;
+    height: 1px;
+    background-color:#f74843;
+    margin: 4px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1em;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: #eee;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: #f74843;
+    transition: 0.5s;
+}
+
+.events{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 100%;
+    
+}
+
+.events .event1{
+    height: 300px;
+    padding-bottom: 30px;
+    
+}
+
+#recent-events {
+
+    background-color: black;
+    border-top: 1px solid black;
+    padding: 70px 0 500px;
+    height: 28vh;
+}
+
+#recent-events .RecentEventsText{
+    font-size: 40px;
+    line-height: 100%;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 600;
+    color: antiquewhite;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px #000000;
+    position: relative; top: 58%; left: 0%;
+    padding-left: 40.5%;
+}
+
+.eventbox1{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 500px;
+    
+}
+
+.eventbox1 img{
+    width: 500px;
+    
+}
+
+.eventbox2{
+    position: absolute;
+    top: 30%;
+    left: 37.5%;
+    width: 500px;
+    
+}
+
+.eventbox2 img{
+    width: 500px;
+    
+}
+
+.eventbox3{
+    position: absolute;
+    top: 30%;
+    left: 69.5%;
+    width: 500px;
+    
+}
+
+.eventbox3 img{
+    width: 500px;
+    
+}
+
+#recent-events .box {
+    margin-top: 20em;
+    position: relative;
+    flex-basis: 31%;
+    background-color: black;
+}
+
+#recent-events .box .badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+#recent-events .box img {
+    width: 100%;
+}
+
+ #recent-events .box .box-lower-section {
+    padding: 200px;
+} 
+
+#recent-events .box .box-lower-section p {
+    color: #f74843;
+}
+
+#recent-events .box .box-lower-section a {
+    color: #f74843;
+    font-size: 0.8em;
+}
+
+.box .picture{
+    transition: 0.5s;
+    border-bottom: 2px solid #4a4a4a;
+}
+
+
+.box:hover .picture{
+    filter: brightness(1.3);
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 15px #000;
+    border-color: #f74843;
+    color: #ddd;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+
+#game-types-boxes {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+
+.Games{
+    font-size: 30px;
+    color: antiquewhite;
+    margin-left: 47.5%;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+#game-types-boxes .box {
+    position: relative;
+    height: 500px;
+    width: 500px;
+
+}
+#game-types-boxes .box span{
+    color: #ddd;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+
+#game-types-boxes .box .badge {
+    position: relative;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+}
+
+#game-types-boxes .box .contents{
+    position: absolute;
+    background-color: #f74843;
+    z-index: 2;
+    bottom: 20px;
+    left: 0;
+    color: antiquewhite;
+    padding: 2%;
+    margin-left: 60%;
+}
+
+#game-types-boxes .box .contents a {
+    font-size: 13px;
+    font-weight: 300;
+    color: #eee;
+}
+
+.contents:hover{
+    background-color: #000;
+    color: #f74843;
+    transition: 0.5s;
+}
+ 
+#recent-reviews {
+    justify-content: center;
+    background-color: #252525;
+}
+
+#recent-reviews h1 {
+    text-align: center;
+    margin-bottom: 1.65em;
+    color: #f74843;
+    background-color: #252525;
+}
+
+#recent-reviews .box {
+    flex-basis: 40%;
+    position: relative;
+    text-align: center;
+    background-color: #252525;
+    color: #f74843;
+    padding-bottom: 50px;
+}
+
+#recent-reviews .box .rating-badge {
+    border-radius: 28px;
+    padding: 13px;
+    font-size: 1.1em;
+    color: #eee;
+    font-weight: 600;
+    background-color: #FFB320;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+
+#recent-reviews .box .rating-badge.purple {
+    background-color: #694EAE;
+}
+
+#recent-reviews .box .rating-badge.violet {
+    background-color: #FF20AE;
+}
+
+#recent-reviews .box .recent-reviews-image {
+    margin-bottom: 0.75em;
+    overflow: hidden;
+}
+
+#recent-reviews .box .recent-reviews-image img {
+    width: 100%;
+}
+
+#recent-reviews .box p {
+    color: rgb(255, 255, 255);
+}
+
+#tournaments .flex {
+    position: relative;
+}
+
+#tournaments .badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#tournaments .badge.tournaments {
+    top: -32px;
+    left: 15px;
+}
+
+#tournaments .box {
+    background-color: #252525;
+    padding: 30px 20px 40px;
+    flex-basis: 45%;
+    position: relative;
+}
+
+#tournaments .box .tournaments-image {
+    float: left;
+    width: 30%;
+}
+
+#tournaments .box .tournaments-image img {
+    width: 100%;
+}
+
+#tournaments .box .tournaments-content {
+    float: left;
+    margin-left: 25px;
+    width: 60%;
+}
+
+#tournaments .box .tournaments-content h3 {
+    color: #f74843;
+    margin-top: 0;
+}
+
+#tournaments .box .tournaments-content label {
+    color: #999;
+    font-size: 0.75em;
+}
+
+#tournaments .box .tournaments-content label.prizes {
+    color: #f74843;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+#tournaments .box .tournaments-content strong {
+    color: #eee;
+    font-size: 0.75em;
+}
+
+.tournamentshead{
+    color: #f74843;
+    font-size: 40px;
+    position: relative;
+    left: 44%;
+    padding-bottom: 30px;
+    
+}
+
+
+#posts .logo1 {
+    
+    padding-left: 10%;
+    position: relative;
+}
+
+#posts .logo1 p {
+    color: #eee;
+    font-weight: 200;
+}
+
+
+#posts .game-warrior img.footer-graphic {
+    position: absolute;
+    margin-bottom: 0;
+    width: 115%;
+}
+
+#posts .posts-box {
+    flex-basis: 28%;
+    background-color: #252525;
+    padding: 20px 20px 25px;
+    border: 1px solid #4a4a4a;
+}
+
+#posts .posts-box h3 {
+    color: #f74843;
+}
+
+.post-item {
+    margin-top: 25px;
+}
+
+.post-item:first-child {
+    margin-top: 0;
+}
+
+.post-item:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.post-item img {
+    float: left;
+    width: 30%;
+}
+
+.post-item > div {
+    float: left;
+    margin-left: 5%;
+    width: 65%;
+}
+
+.post-item > div h5 {
+    color: #FFB320;
+    font-size: 0.8em;
+    margin-top: 0;
+}
+
+.post-item > div p {
+    color: #eee;
+    margin: 5px 0;
+    font-size: 0.8em;
+}
+
+.post-item > div small {
+    color: #999;
+    font-size: 0.75em;
+}
+
+footer {
+    background-color: #252525;
+    padding: 25px 0 20px;
+    border-top: 1px solid #f74843;
+    
+}
+
+footer small {
+    color: #ddd;
+    font-size: 0.9em;
+}
+
+footer small .footer-heart {
+    font-size: 16px;
+}
+
+footer small a {
+    color: #007BDC;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+footer ul li a {
+    color: #ddd;
+    font-size: 0.8em;
+}
+
+.footernav{
+    color: #eee;
+    transition: 0.5s;
+}
+
+.footernav:hover{
+    color: #f74843;
+    transition: 0.5s;
+}
+
+@media (max-width: 1530px){
+    
+.eventbox1{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 400px;
+    
+}
+
+.eventbox1 img{
+    width: 400px;
+    
+}
+
+.eventbox2{
+    position: absolute;
+    top: 30%;
+    left: 37.5%;
+    width: 400px;
+    
+}
+
+.eventbox2 img{
+    width: 400px;
+    
+}
+
+.eventbox3{
+    position: absolute;
+    top: 30%;
+    left: 69.5%;
+    width: 400px;
+    
+}
+
+.eventbox3 img{
+    width: 400px;
+    
+}
+    .aboutmain{
+        height: 115vh;
+    }
+
+    .aboutvid{
+        
+        left: 80%;
+    }
+    
+    .mainhead2{
+
+        top: 20%;
+        font-size: 50px;
+        
+    }
+    
+    .detailhead{
+
+        top: 50%;
+        font-size: 30px;
+    }
+    
+    .aboutpara{
+
+        top: 62%;
+
+    }
+    
+    .detailhead2{
+
+        top: 85%;
+        font-size: 30px;
+
+    }
+    
+    .aboutpara2{
+
+        top: 95%;
+
+    }
+}
+
+@media  (max-width: 1200px) {
+
+    
+.eventbox1{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 300px;
+    
+}
+
+.eventbox1 img{
+    width: 300px;
+    
+}
+
+.eventbox2{
+    position: absolute;
+    top: 30%;
+    left: 37.5%;
+    width: 300px;
+    
+}
+
+.eventbox2 img{
+    width: 300px;
+    
+}
+
+.eventbox3{
+    position: absolute;
+    top: 30%;
+    left: 69.5%;
+    width: 300px;
+    
+}
+
+.eventbox3 img{
+    width: 300px;
+    
+}
+
+
+    .flex {
+        max-width: 1000px;
+    }
+
+    nav ul{
+        display: inline-block;
+    }
+
+    .aboutmain{
+        height: 145vh;
+    }
+    
+    .mainhead2{
+
+        top: 20%;
+        font-size: 50px;
+        
+    }
+    
+    .detailhead{
+
+        top: 60%;
+        font-size: 30px;
+    }
+    
+    .aboutpara{
+
+        top: 75%;
+
+    }
+    
+    .detailhead2{
+
+        top: 103%;
+        font-size: 30px;
+
+    }
+    
+    .aboutpara2{
+
+        top: 113%;
+
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    
+.eventbox1{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 400px;
+    
+}
+
+.eventbox1 img{
+    width: 400px;
+    
+}
+
+.eventbox2{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    width: 400px;
+    
+}
+
+.eventbox2 img{
+    width: 400px;
+    
+}
+
+.eventbox3{
+    position: absolute;
+    top: 110%;
+    left: 30%;
+    width: 400px;
+    
+}
+
+.eventbox3 img{
+    width: 400px;
+    
+}
+
+    .aboutmain{
+        height: 150vh;
+    }
+
+    .aboutvid{
+        
+        left: 80%;
+    }
+    
+    .mainhead2{
+
+        top: 20%;
+        font-size: 45px;
+        
+    }
+    
+    .detailhead{
+
+        top: 60%;
+        font-size: 30px;
+    }
+    
+    .aboutpara{
+
+        top: 75%;
+
+    }
+    
+    .detailhead2{
+
+        top: 106%;
+        font-size: 30px;
+
+    }
+    
+    .aboutpara2{
+
+        top: 115%;
+
+    }
+
+    .mainhead{
+       
+        left: 30%;
+      
+    }
+
+
+    .flex {
+        max-width: 720px;
+    }
+
+    .background2{
+        height: 140vh;
+    }
+
+    nav ul{
+        display: inline-block;
+    }
+
+    nav ul li {
+        margin: 0 12px;
+        font-size: 0.85em;
+       
+    }
+
+    .logopunk{
+        display: none;
+    }
+
+    #recent-events .RecentEventsText{
+       
+        position: relative; top: 200%; left: 0;
+        padding-left: 30%;
+    }
+
+    #game-types-boxes {
+        left: 10%;
+    }
+
+    #game-types-boxes .flex {
+        flex-wrap: wrap;
+    }
+
+    #game-types-boxes .box {
+        flex-basis: 50%;
+    }
+
+    #recent-events {
+        
+        height: 10vh;
+    }
+
+    /* #tournaments .box {
+        flex-basis: 42%;
+    }
+
+    #tournaments .box .tournaments-image {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+        height: 250px;
+        overflow: hidden;
+    }
+
+    #tournaments .box .tournaments-content {
+        margin-left: 0;
+        width: 100%;
+    } */
+    
+    /* #recent-reviews {
+        background: none;
+    }
+
+    #recent-reviews .flex {
+        flex-wrap: wrap;
+    }
+
+    #recent-reviews .box {
+        flex-basis: 48%;
+        margin-bottom: 45px;
+    } */
+
+    #posts .flex {
+        flex-wrap: wrap;
+    }
+
+    #posts .game-warrior {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+
+    #posts .posts-box {
+        flex-basis: 43%;
+    }
+
+    #posts .game-warrior img.footer-graphic {
+        display: none;
+    }
+
+    footer .flex {
+        flex-wrap: wrap-reverse;
+    }
+
+    footer small {
+        flex-basis: 100%;
+        font-size: 0.75em;
+        text-align: center;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+
+    footer ul {
+        flex-basis: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    #valve-montage .jobs{
+        top: 68%;
+    }
+
+    .background{
+        height: 150vh;
+
+    }
+
+    .background3{
+
+        height: 150vh;
+
+    }
+} /* end 991px */
+
+
+
+@media (max-width: 815px) {
+    
+
+    .aboutmain{
+        height: 140vh;
+    }
+
+    .aboutvid{
+        
+        left: 90%;
+        
+    }
+    
+    .mainhead2{
+
+        top: 15%;
+        font-size: 40px;
+        
+    }
+    
+    .detailhead{
+
+        top: 55%;
+        font-size: 25px;
+    }
+    
+    .aboutpara{
+
+        top: 65%;
+        font-size: 18px;
+
+    }
+    
+    .detailhead2{
+
+        top: 95%;
+        font-size: 25px;
+
+    }
+    
+    .aboutpara2{
+
+        top: 101%;
+        font-size: 18px;
+
+    }
+
+    .mainhead{
+       
+        left: 30%;
+      
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    .background2{
+        height: 140vh;
+    }
+
+    .mainhead{
+        top: 120px;
+        left: 20%;
+    }
+
+    .flex {
+        max-width: 540px;
+    }
+    #dota-montage .homepage_QuoteCredit{
+        top: 60%; 
+    }
+    
+    #dota-montage .homepage_HorizBar{
+
+        top: 64%;
+        margin-left: 19.5%;
+
+    }
+
+    .homepage_Signbtn {
+        top: 600px; 
+        left: 16%;
+        
+    }
+
+    #recent-events {
+        
+        height: 5vh;
+    }
+
+    #recent-events .RecentEventsText{
+        
+        position: relative; top: 500%; left: 0%;
+        padding-left: 35%;
+    }
+
+    .homepage_TopFade {
+
+        height: 100px;
+
+    }
+
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 101%;
+        width: 100%;
+        background-color: #131313;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        z-index: 1;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 15px 0 15px 20px;
+        border-bottom: 1px solid #f74843;
+        margin: 0;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+
+    .hamburger-menu {
+        display: block;
+        margin-top: 2px;
+    }
+
+    #hero-image {
+        height: 650px;
+        background-size: cover;
+    }
+
+    .hero-marketing-text {
+        margin-top: -85px;
+    }
+
+    .hero-marketing-text h1 {
+        font-size: 2.5em;
+    }
+
+    #latest-news .flex h5 {
+        display: none;
+    }
+
+    #latest-news-container {
+        flex-basis: 100%;
+    }
+
+    #recent-games {
+        padding: 60px 0;
+    }
+
+    #game-types-boxes .box,
+    #recent-games .box {
+        flex-basis: 50%;
+        margin-bottom: 30px;
+        height: 500px;
+    }
+
+    #recent-games .flex,
+    #tournaments .flex {
+        flex-wrap: wrap;
+    }
+
+    #tournaments .box {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    #tournaments .box .tournaments-image {
+        height: 400px;
+    }
+
+    #recent-reviews .box {
+        flex-basis: 50%;
+    }
+
+    #recent-reviews .box .recent-reviews-image {
+        height: 400px;
+    }
+
+    #posts .posts-box {
+        flex-basis: 50%;
+        margin-bottom: 0;
+    }
+
+    footer ul li {
+        margin: 0 10px;
+    }
+
+    footer ul li a {
+        font-size: 0.75em;
+    }
+
+    
+
+}
+
+.prev{
+    position: absolute;
+    top: 25%;
+}
+
+.trailer{
+    border-right: #f74843 1px solid;
+}
+
+iframe{
+    margin-bottom: 60px;
+}
+
+.prev .container {
+    display: inline-block;
+    width: 30em;
+    height: 35em;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    margin-top: 2rem;
+    margin-left: 3em;
+  }
+  
+
+  
+  .product-head {
+    color: antiquewhite;
+    padding-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .information {
+    color: antiquewhite;
+    border-bottom: #f74843 solid;
+    margin-top: 1.2em;
+  }
+  
+  .deet1 {
+    display: inline;
+  }
+  
+  .dev-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .dev-link:hover {
+    color: #f74843;
+  }
+  
+  #right-side {
+    padding-top: 0.5rem;
+  }
+  
+  
+  .heads {
+    text-align: center;
+    margin-top: 1em;
+    color: antiquewhite;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  #descript {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: antiquewhite;
+  }
+
+  .users-div{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+  }
+
+  .btn-primary {
+    color: antiquewhite;
+    background-color: #f74843;
+    border-color: #f74843;
+}
+
+@media (max-width: 600px) {
+    
+
+    .mainhead4{
+        left: 20%;
+    }
+
+      
+.eventbox1{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 300px;
+    
+}
+
+.eventbox1 img{
+    width: 300px;
+    
+}
+
+.eventbox2{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    width: 300px;
+    
+}
+
+.eventbox2 img{
+    width: 300px;
+    
+}
+
+.eventbox3{
+    position: absolute;
+    top: 120%;
+    left: 20%;
+    width: 300px;
+    
+}
+
+.eventbox3 img{
+    width: 300px;
+    
+}
+
+.background3{
+
+    height: 150vh;
+
+}
+
+    .aboutmain{
+        height: 170vh;
+    }
+
+    .aboutvid{
+        
+        left: 90%;
+        
+    }
+    
+    .mainhead2{
+
+        top: 15%;
+        font-size: 30px;
+        
+    }
+    
+    .detailhead{
+
+        top: 45%;
+        font-size: 25px;
+    }
+    
+    .aboutpara{
+
+        top: 60%;
+        font-size: 18px;
+
+    }
+    
+    .detailhead2{
+
+        top: 100%;
+        font-size: 25px;
+
+    }
+    
+    .aboutpara2{
+
+        top: 111%;
+        font-size: 18px;
+
+    }
+
+    #recent-reviews .box {
+        flex-basis: 100%;
+    }
+
+    #recent-reviews .box .recent-reviews-image {
+        height: 300px;
+    }
+
+    #posts .posts-box {
+        flex-basis: 100%;
+        margin-bottom: 0;
+    }
+    #recent-events {
+        height: 10vh;
+        
+    }
+
+    #valve-montage .homepage_para{
+        top: 50%;
+    }
+
+    #valve-montage .jobs{
+        top: 78%;
+    }
+
+    .background{
+        height: 190vh;
+
+    }
+
+}
+
+@media (max-width: 400px) {
+    .logo img {
+        width: 50px;
+        margin-top: 2px;
+    }
+
+    #valve-montage .mainhead {
+        font-size:25px;
+    }
+
+    #login-register-button {
+        padding: 10px;
+        font-size: 0.65em;
+    }
+    #recent-events {
+        height: 50vh;
+    }
+
+    #valve-montage .jobs{
+        top: 80%;
+        
+    }
+  
+
+}
+
+@media (max-height: 900px){
+    #valve-montage .jobs{
+        font-size: 40px;
+        top: 70%;
+    }
+
+    #valve-montage .mainhead{
+        font-size: 40px;
+    }
+
+    #valve-montage .homepage_QuoteText{
+        font-size: 30px;
+    }
+
+    #valve-montage .homepage_para{
+        top: 45%;
+    }
+
+    #valve-montage .background{
+        height: 150vh;
+    }
+
+    .aboutmain{
+        height: 130vh;
+    }
+
+    .aboutvid{
+        
+        left: 80%;
+    }
+    
+    .mainhead2{
+
+        top: 20%;
+        font-size: 30px;
+        
+    }
+    
+    .detailhead{
+
+        top: 45%;
+        font-size: 25px;
+    }
+    
+    .aboutpara{
+
+        top: 60%;
+        font-size: 15px;
+
+    }
+    
+    .detailhead2{
+
+        top: 85%;
+        font-size: 25px;
+
+    }
+    
+    .aboutpara2{
+
+        top: 95%;
+        font-size: 15px;
+
+    }
+
+    .prev{
+        top: 20%;
+    }
+}
+
+
+
+@media (max-height: 750px){
+
+    #dota-montage .homepage_QuoteText{
+        top: 60%;
+    }
+
+    #dota-montage .homepage_QuoteCredit{
+        top: 95%;
+    }
+
+    #dota-montage .homepage_HorizBar{
+        top: 100%;
+    }
+
+    #dota-montage .homepage_Signbtn{
+        top: 105%;
+    }
+
+    #video-container{
+        height: 120vh;
+    }
+
+    #valve-montage .jobs{
+        font-size: 35px;
+        top: 75%;
+    }
+
+    #valve-montage .mainhead{
+        font-size: 40px;
+    }
+
+    #valve-montage .homepage_QuoteText{
+        font-size: 30px;
+    }
+
+    #valve-montage .homepage_para{
+        top: 45%;
+    }
+
+    #valve-montage .background{
+        height: 150vh;
+    }
+
+    .aboutmain{
+        height: 130vh;
+    }
+
+    .aboutvid{
+        
+        left: 80%;
+    }
+    
+    .mainhead2{
+
+        top: 20%;
+        font-size: 30px;
+        
+    }
+    
+    .detailhead{
+
+        top: 45%;
+        font-size: 25px;
+    }
+    
+    .aboutpara{
+
+        top: 60%;
+        font-size: 15px;
+
+    }
+    
+    .detailhead2{
+
+        top: 85%;
+        font-size: 25px;
+
+    }
+    
+    .aboutpara2{
+
+        top: 95%;
+        font-size: 15px;
+
+    }
+
+    #game-types-boxes {
+        position: absolute;
+        top: 35%;
+        left: 5%;
+    }
+
+    .background2{
+        height: 190vh;
+    }
+
+    
+}
+
+@media (max-width: 700px){
+
+    .aboutmain{
+        height: 170vh;
+    }
+
+    .aboutvid{
+        
+        left: 80%;
+    }
+    
+    .mainhead2{
+
+        top: 20%;
+        font-size: 25px;
+        
+    }
+    
+    .detailhead{
+
+        top: 55%;
+        font-size: 20px;
+    }
+    
+    .aboutpara{
+
+        top: 70%;
+        font-size: 15px;
+
+    }
+    
+    .detailhead2{
+
+        top: 110%;
+        font-size: 20px;
+
+    }
+    
+    .aboutpara2{
+
+        top: 120%;
+        font-size: 15px;
+
+    }
+
+    
+}
+
+@media (max-width: 600px){
+    #valve-montage .jobs{
+        font-size: 30px;
+        top: 88%;
+    }
+
+    #valve-montage .background{
+        height: 150vh;
+    }
+
+    .aboutmain{
+        height: 170vh;
+    }
+
+    .aboutvid{
+        
+        left: 80%;
+    }
+    
+    .mainhead2{
+
+        top: 20%;
+        font-size: 25px;
+        
+    }
+    
+    .detailhead{
+
+        top: 55%;
+        font-size: 20px;
+    }
+    
+    .aboutpara{
+
+        top: 70%;
+        font-size: 15px;
+
+    }
+    
+    .detailhead2{
+
+        top: 110%;
+        font-size: 20px;
+
+    }
+    
+    .aboutpara2{
+
+        top: 120%;
+        font-size: 15px;
+
+    }
+
+    
+}
+
+@media (max-width: 1551px) {
+    .background4{
+        height: 150vh;
+    }
+    .prev{
+        top: 30%;
+    }
+
+    .joinpara{
+        font-size: 18px;
+    }
+
+    .joinpara2{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .trailer{
+        height: 450px;
+        width: 700px;
+    }
+
+    .background4{
+        height: 130vh;
+    }
+
+    .job_benefits {
+        top: 120%;
+        left: 10%;
+        width: 60%;
+    }
+
+    .joinpara2{
+        top: 85%;
+    }
+
+    .joinmain{
+        height: 180vh;
+    }
+}
+
+@media (max-width: 780px) {
+    .trailer{
+        height: 300px;
+        width: 500px;
+    }
+
+    .background4{
+        height: 120vh;
+    }
+
+    .joinpara{
+        top: 30%;
+    }
+
+    .job_benefits{
+        top: 120%;
+    }
+
+    .joinmain{
+        height: 180vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .trailer{
+        height: 300px;
+        width: 380px;
+    }
+
+    .joinpara{
+        font-size: 15px;
+    }
+
+    .joinpara2{
+        font-size: 15px;
+    }
+
+    .joinmain{
+        height: 200vh;
+    }
+}
